@@ -450,5 +450,20 @@ document.getElementById("convert").addEventListener("click", convertIt);
       }
     }
 
-    
+
+
+function limitInputLength(input, maxLength) {
+      if (input.value.length > maxLength) {
+        input.value = input.value.slice(0, maxLength);
+      }
+    }
+    const fnameInput = document.getElementById('fname');
+
+    fnameInput.addEventListener('input', () => {
+      if (fnameInput.scrollWidth > fnameInput.clientWidth) {
+        fnameInput.style.fontSize = '15px';
+      } else {
+        fnameInput.style.fontSize = '20px';
+      }
+    });
   
