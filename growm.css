@@ -207,9 +207,10 @@ th {
   font-size: 20px;
   border: transparent;
   background: transparent;
-  font-weight: bolder;
+/*   font-weight: bolder; */
   border-style: none;
   -webkit-appearance: none;
+  margin: -7.7px;
 }
 
 #csh {
@@ -281,13 +282,13 @@ th {
   -webkit-appearance: none;
 }
 
- #iwetext {
+/*  #iwetext {
   text-align: left;
   margin: -15px;
 }
 #iwe {
   font-weight: lighter !important;
-}
+} */
 
 .items7 {
   line-height: 1.6;
